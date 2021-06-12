@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/juaniponce/github/TP4-AED2/tp4_2021_c1
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug

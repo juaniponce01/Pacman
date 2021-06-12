@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Tipos.h
+cstdlib
+-
+cassert
+-
+iostream
+-
+set
+-
+tuple
+-
+string
+-
+map
+-
+list
+-
+vector
+-
+
+/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/aed2_Fichin.cpp
+aed2_Fichin.h
+/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/aed2_Fichin.h
+
+/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/aed2_Fichin.h
+Tipos.h
+/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Tipos.h
+

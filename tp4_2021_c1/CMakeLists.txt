@@ -4,7 +4,7 @@ project(TP4_Pacalgo2)
 option(WITH_GUI "Preparar compilacion con interfaz grafica (necesita SDL instalado)" OFF)
 
 # IMPORTANTE: Descomentar la siguiente linea para preparar compilacion con interfaz grafica (leer el readme para las instrucciones completas)
-# set(WITH_GUI ON)
+#set(WITH_GUI ON)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -25,7 +25,7 @@ if (WITH_GUI)
 	file(GLOB GUI_FILES gui/*.cpp gui/*.h gui/*.hpp)
 
 	# En caso de no encontrar la biblioteca SDL, probar descomentando la siguiente línea
-	# set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modulos/)
+#	    set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modulos/)
 
     	find_package(SDL2 REQUIRED CONFIG)
 	include_directories(${SDL2_INCLUDE_DIRS})
