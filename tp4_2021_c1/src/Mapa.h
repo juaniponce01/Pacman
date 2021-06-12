@@ -1,9 +1,7 @@
-//
-// Created by Juan Ponce on 12/06/2021.
-//
-
 #ifndef TP4_PACALGO2_MAPA_H
 #define TP4_PACALGO2_MAPA_H
+
+#include "Tipos.h"
 
 
 class Mapa {
@@ -36,6 +34,4 @@ private:
     set<Coordenada> _fantasmas;
 
 };
-
-
 #endif //TP4_PACALGO2_MAPA_H
