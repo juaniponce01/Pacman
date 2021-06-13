@@ -3,15 +3,9 @@
 //
 
 #include "Mapa.h"
-Mapa::Mapa() : _alto(0), _largo(0){
-    Coordenada _inicio;
-    Coordenada _llegada;
-    //vector<vector<string>> _mapaDinamico;
-    //set<Coordenada> _chocolates;
-    //set<Coordenada> _paredes;
-    //set<Coordenada> _fantasmas;
-
-}
+Mapa::Mapa(Nat largo, Nat alto, Coordenada inicio, Coordenada llegada, set<Coordenada> paredes,
+           set<Coordenada> fantasmas, set<Coordenada> chocolates) : _alto(alto), _largo(largo), _inicio(inicio), _llegada(llegada),
+           _paredes(paredes), _fantasmas(fantasmas), _chocolates(chocolates) { }
 
 Nat Mapa::largo(){
 

@@ -18,10 +18,13 @@ public:
     Nat alto();
     Coordenada inicio();
     Coordenada llegada();
-    vector<vector<string>> mapaDinamico();
-    set<Coordenada> chocolates();
-    set<Coordenada> paredes();
-    set<Coordenada> fantasmas();
+    const vector<vector<string>>& mapaDinamico();
+    const set<Coordenada>& chocolates();
+    const set<Coordenada>& paredes();
+    const set<Coordenada>& fantasmas();
+    void agregarCholocate(Coordenada);
+    void quitarCholoclate(Coordenada);
+
 
 private:
     Nat _alto;
