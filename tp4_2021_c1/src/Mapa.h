@@ -18,7 +18,7 @@ public:
     Nat alto();
     Coordenada inicio();
     Coordenada llegada();
-    const vector<vector<string>>& mapaDinamico();
+    const vector<vector<char>>& mapaDinamico();
     const set<Coordenada>& chocolates();
     const set<Coordenada>& paredes();
     const set<Coordenada>& fantasmas();
