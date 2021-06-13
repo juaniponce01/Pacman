@@ -12,7 +12,7 @@ public:
          Coordenada llegada,
          set<Coordenada> paredes,
          set<Coordenada> fantasmas,
-         set<Coordenada> chocolates)
+         set<Coordenada> chocolates);
 
     Nat largo();
     Nat alto();
@@ -22,9 +22,10 @@ public:
     const set<Coordenada>& chocolates();
     const set<Coordenada>& paredes();
     const set<Coordenada>& fantasmas();
-    void agregarCholocate(Coordenada);
-    void quitarCholoclate(Coordenada);
-
+    void agregarChocolate(Coordenada);
+    void quitarChocolate(Coordenada);
+    Nat distancia(Coordenada, Coordenada);
+    bool hayFantasmaAMenosde3(Coordenada);
 
 private:
     Nat _alto;
@@ -35,6 +36,5 @@ private:
     set<Coordenada> _chocolates;
     set<Coordenada> _paredes;
     set<Coordenada> _fantasmas;
-
 };
 #endif //TP4_PACALGO2_MAPA_H
