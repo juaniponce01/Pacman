@@ -81,4 +81,5 @@ bool Mapa::hayFantasmaAMenosde3(Coordenada c) {
             }
         }
     }
+    return res;
 }
