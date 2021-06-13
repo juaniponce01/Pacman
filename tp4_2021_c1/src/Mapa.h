@@ -32,7 +32,7 @@ private:
     Nat _largo;
     Coordenada _inicio;
     Coordenada _llegada;
-    vector<vector<string>> _mapaDinamico;
+    vector<vector<char>> _mapaDinamico;
     set<Coordenada> _chocolates;
     set<Coordenada> _paredes;
     set<Coordenada> _fantasmas;

@@ -4,13 +4,18 @@
 CMakeFiles/correrTests.dir/src/Fichin.cpp.o
  /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Fichin.cpp
  /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Fichin.h
+ /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Mapa.h
+ /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Partida.h
+ /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Tipos.h
 CMakeFiles/correrTests.dir/src/Mapa.cpp.o
  /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Mapa.cpp
  /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Mapa.h
  /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Tipos.h
 CMakeFiles/correrTests.dir/src/Partida.cpp.o
+ /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Mapa.h
  /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Partida.cpp
  /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Partida.h
+ /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Tipos.h
 CMakeFiles/correrTests.dir/src/aed2_Fichin.cpp.o
  /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Tipos.h
  /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/aed2_Fichin.cpp

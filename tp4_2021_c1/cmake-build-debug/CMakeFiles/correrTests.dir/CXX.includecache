@@ -11,8 +11,16 @@ Fichin.h
 /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Fichin.h
 
 /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Fichin.h
+Tipos.h
+/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Tipos.h
+Partida.h
+/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Partida.h
+Mapa.h
+/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Mapa.h
 
 /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Mapa.cpp
+cmath
+-
 Mapa.h
 /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Mapa.h
 
@@ -25,6 +33,10 @@ Partida.h
 /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Partida.h
 
 /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Partida.h
+Tipos.h
+/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Tipos.h
+Mapa.h
+/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Mapa.h
 
 /Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Tipos.h
 cstdlib
@@ -45,12 +57,4 @@ list
 -
 vector
 -
-
-/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/aed2_Fichin.cpp
-aed2_Fichin.h
-/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/aed2_Fichin.h
-
-/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/aed2_Fichin.h
-Tipos.h
-/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Tipos.h
 

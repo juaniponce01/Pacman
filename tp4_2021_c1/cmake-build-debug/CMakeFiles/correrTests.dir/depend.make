@@ -3,13 +3,18 @@
 
 CMakeFiles/correrTests.dir/src/Fichin.cpp.o: ../src/Fichin.cpp
 CMakeFiles/correrTests.dir/src/Fichin.cpp.o: ../src/Fichin.h
+CMakeFiles/correrTests.dir/src/Fichin.cpp.o: ../src/Mapa.h
+CMakeFiles/correrTests.dir/src/Fichin.cpp.o: ../src/Partida.h
+CMakeFiles/correrTests.dir/src/Fichin.cpp.o: ../src/Tipos.h
 
 CMakeFiles/correrTests.dir/src/Mapa.cpp.o: ../src/Mapa.cpp
 CMakeFiles/correrTests.dir/src/Mapa.cpp.o: ../src/Mapa.h
 CMakeFiles/correrTests.dir/src/Mapa.cpp.o: ../src/Tipos.h
 
+CMakeFiles/correrTests.dir/src/Partida.cpp.o: ../src/Mapa.h
 CMakeFiles/correrTests.dir/src/Partida.cpp.o: ../src/Partida.cpp
 CMakeFiles/correrTests.dir/src/Partida.cpp.o: ../src/Partida.h
+CMakeFiles/correrTests.dir/src/Partida.cpp.o: ../src/Tipos.h
 
 CMakeFiles/correrTests.dir/src/aed2_Fichin.cpp.o: ../src/Tipos.h
 CMakeFiles/correrTests.dir/src/aed2_Fichin.cpp.o: ../src/aed2_Fichin.cpp

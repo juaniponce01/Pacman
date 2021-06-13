@@ -1,8 +1,9 @@
 //
 // Created by Juan Ponce on 12/06/2021.
 //
-
+#include <cmath>
 #include "Mapa.h"
+
 Mapa::Mapa(Nat largo, Nat alto, Coordenada inicio, Coordenada llegada, set<Coordenada> paredes,
            set<Coordenada> fantasmas, set<Coordenada> chocolates) :
             _largo(largo), _alto(alto),
@@ -68,7 +69,7 @@ void Mapa::quitarChocolate(Coordenada chocolate) {
 }
 
 Nat Mapa::distancia(Coordenada c1, Coordenada c2) {
-    abs((int)c1.first - (int)c2.first) + abs((int)c1.second - (int)c2.second);
+    return abs((int)c1.first - (int)c2.first) + abs((int)c1.second - (int)c2.second);
 }
 
 bool Mapa::hayFantasmaAMenosde3(Coordenada c) {
