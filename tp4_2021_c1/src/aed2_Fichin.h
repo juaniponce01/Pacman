@@ -8,6 +8,7 @@ public:
     aed2_Fichin(Nat largo, Nat alto, Coordenada inicio, Coordenada llegada, set<Coordenada> paredes,
                 set<Coordenada> fantasmas, set<Coordenada> chocolates);
 
+
     void nuevaPartida(Jugador j);
 
     // IMPORTANTE: Debe devolver:
@@ -47,7 +48,7 @@ public:
     set<Coordenada> chocolatesActuales() const;
 
 private:
-    // Completar
+    partida partidaActual;
 };
 
 #endif // AED2_FICHIN_H

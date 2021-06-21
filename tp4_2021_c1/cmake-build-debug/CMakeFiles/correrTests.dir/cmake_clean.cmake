@@ -1,11 +1,13 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/correrTests.dir/src/Fichin.cpp.o"
-  "CMakeFiles/correrTests.dir/src/Mapa.cpp.o"
-  "CMakeFiles/correrTests.dir/src/Partida.cpp.o"
-  "CMakeFiles/correrTests.dir/src/aed2_Fichin.cpp.o"
-  "CMakeFiles/correrTests.dir/tests/fichin-tests.cpp.o"
-  "correrTests"
+  "CMakeFiles/correrTests.dir/src/Fichin.cpp.obj"
+  "CMakeFiles/correrTests.dir/src/Mapa.cpp.obj"
+  "CMakeFiles/correrTests.dir/src/Partida.cpp.obj"
+  "CMakeFiles/correrTests.dir/src/aed2_Fichin.cpp.obj"
+  "CMakeFiles/correrTests.dir/tests/fichin-tests.cpp.obj"
+  "correrTests.exe"
+  "correrTests.exe.manifest"
   "correrTests.pdb"
+  "libcorrerTests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

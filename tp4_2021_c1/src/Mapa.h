@@ -3,7 +3,6 @@
 
 #include "Tipos.h"
 
-
 class Mapa {
 public:
     Mapa(Nat largo,
@@ -37,4 +36,5 @@ private:
     set<Coordenada> _paredes;
     set<Coordenada> _fantasmas;
 };
+
 #endif //TP4_PACALGO2_MAPA_H

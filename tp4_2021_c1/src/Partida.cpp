@@ -1,7 +1,9 @@
 #include "Partida.h"
 
-Partida::Partida(Mapa mapa):
-        _mapaAsociado(mapa), _jugador(mapa.inicio()),
+Partida::Partida(Nat largo, Nat alto, Coordenada inicio, Coordenada llegada, set<Coordenada> paredes,
+                 set<Coordenada> fantasmas, set<Coordenada> chocolates):
+        _mapaAsociado(largo, alto, inicio, llegada, paredes, fantasmas, chocolates),
+        _jugador(inicio),
         _cantMov(0), _inmunidad(0),
         _gano(false), _perdio(false)
 {}

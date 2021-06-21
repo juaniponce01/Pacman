@@ -8,209 +8,227 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
+				<Option working_dir="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="correrValgrind">
-				<Option working_dir="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 correrValgrind"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="correrTests">
-				<Option output="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/correrTests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 correrTests"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="correrTests/fast">
-				<Option output="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/correrTests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 correrTests/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="gtest_main">
-				<Option output="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="gtest_main/fast">
-				<Option output="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
+				<Option output="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/backward"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
+				<Option output="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/backward"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/backward"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/backward"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="correrTests">
+				<Option output="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/correrTests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/backward"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 correrTests"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="correrTests/fast">
+				<Option output="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/correrTests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/backward"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/Haskell Platform/8.6.5/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="C://Program Files//Haskell Platform//8.6.5//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 correrTests/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="correrValgrind">
+				<Option working_dir="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 correrValgrind"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Fichin.cpp">
+		<Unit filename="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/src/Fichin.cpp">
 			<Option target="correrTests"/>
 		</Unit>
-		<Unit filename="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Fichin.h">
+		<Unit filename="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/src/Fichin.h">
 			<Option target="correrTests"/>
 		</Unit>
-		<Unit filename="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Mapa.cpp">
+		<Unit filename="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/src/Mapa.cpp">
 			<Option target="correrTests"/>
 		</Unit>
-		<Unit filename="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Mapa.h">
+		<Unit filename="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/src/Mapa.h">
 			<Option target="correrTests"/>
 		</Unit>
-		<Unit filename="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Partida.cpp">
+		<Unit filename="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/src/Partida.cpp">
 			<Option target="correrTests"/>
 		</Unit>
-		<Unit filename="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Partida.h">
+		<Unit filename="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/src/Partida.h">
 			<Option target="correrTests"/>
 		</Unit>
-		<Unit filename="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/Tipos.h">
+		<Unit filename="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/src/Tipos.h">
 			<Option target="correrTests"/>
 		</Unit>
-		<Unit filename="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/aed2_Fichin.cpp">
+		<Unit filename="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/src/aed2_Fichin.cpp">
 			<Option target="correrTests"/>
 		</Unit>
-		<Unit filename="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/src/aed2_Fichin.h">
+		<Unit filename="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/src/aed2_Fichin.h">
 			<Option target="correrTests"/>
 		</Unit>
-		<Unit filename="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/tests/fichin-tests.cpp">
+		<Unit filename="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/tests/fichin-tests.cpp">
 			<Option target="correrTests"/>
 		</Unit>
-		<Unit filename="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/tests/gtest-1.8.1/gtest-all.cc">
+		<Unit filename="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/tests/gtest-1.8.1/gtest-all.cc">
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/tests/gtest-1.8.1/gtest_main.cc">
+		<Unit filename="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/tests/gtest-1.8.1/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/Users/juaniponce/github/TP4-AED2/tp4_2021_c1/CMakeLists.txt">
+		<Unit filename="C:/Users/PC/Desktop/Bernie/Gabo/UBA/Materias/Algos II/TPs/TP4-AED2/tp4_2021_c1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

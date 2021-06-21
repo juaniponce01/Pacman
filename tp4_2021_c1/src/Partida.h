@@ -5,7 +5,8 @@
 
 class Partida {
 public:
-    Partida(Mapa mapa);
+    Partida(Nat largo, Nat alto, Coordenada inicio, Coordenada llegada, set<Coordenada> paredes,
+            set<Coordenada> fantasmas, set<Coordenada> chocolates);
     //~Partida();
     Mapa mapa();
     Coordenada jugador();
